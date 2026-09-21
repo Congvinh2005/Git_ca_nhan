@@ -2,7 +2,7 @@ from http.server import BaseHTTPRequestHandler, HTTPServer
 from urllib.parse import parse_qs, urlparse
 
 HOST = "0.0.0.0"
-PORT = 5175
+PORT = 10000000
 
 
 def render_chart_page(nam=0, nu=0):
